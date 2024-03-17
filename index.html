@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <header class="header">
-<nav>
-    <a href="./index.html"> <img src="./img/Logo.svg" alt="logo site" class="header-logo"></a>
-    <ul class="header-list list">
-        <li class="header-item">
-            <a href="" class="header-link link" >About</a></li>
-        <li class="header-item">
-            <a href="" class="header-link link" >Services and prices</a></li>
-        <li class="header-item">
-            <a href="" class="header-link link" >Barbers</a></li>
-        <li class="header-item">
-            <a href="" class="header-link link" >Contacts</a></li>
-    </ul>
-    <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
-    <button type="button" class="header-btn">Online-booking</button>
-</nav>
-  </header>
- 
-    <main>
-        <section class="hero">
-          <ul>
-            <li>
-              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link"
-                >Instagram</a
-              >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html">
+            <img src="./img/Logo.svg" alt="logo site" class="header-logo"
+          /></a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link link">About</a>
             </li>
-            <li>
-              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link"
-                >Youtube</a
-              >
+            <li class="header-item">
+              <a href="" class="header-link link">Services and prices</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Barbers</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Contacts</a>
             </li>
           </ul>
-          <p class="hero-pre-title">A hair salon for men in Kyiv</p>
-          <h1 class="hero-title">BarberShop</h1>
-          <p class="hero-after-title">
-            We are experts in trendy men’s haircuts. We work quickly, carefully
-            and with style.
-          </p>
-        </section>
-        <section class="about">
+
+          <a href="tel:+380441111111" class="header-tel link"
+            >+38 044 111 11 11</a
+          >
+          <button type="button" class="header-btn"   data-modal-open >Online-booking</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-soc">
+            <ul class="hero-list list">
+              <li class="hero-item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="hero-link link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="hero-item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="hero-link link"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hero-wrap">
+            <p class="hero-pre-title top-text">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-after-title bottom-text">
+              We are experts in trendy men’s haircuts. We work quickly,
+              carefully and with style.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="about section">
+        <div class="container about-container">
           <ul class="about-list list">
             <li class="about-item">
               <img
@@ -69,173 +105,307 @@
               />
             </li>
           </ul>
-          <p class="about-pre-title">About</p>
-          <h2 class="about-title">Best Barbershop in your city</h2>
-          <p class="about-after-title">
-            If you want to add more confidence to your image, you should
-            definitely visit us.
+          <div class="about-wrap">
+            <p class="about-pre-title top-text">About</p>
+            <h2 class="about-title">Best Barbershop in your city</h2>
+            <p class="about-after-title bottom-text">
+              If you want to add more confidence to your image, you should
+              definitely visit us.
+            </p>
+            <p class="about-text">
+              We are a team that never stops at what has been achieved and are
+              thirsty for changes. And when you fall into the hands of our
+              master, you will never be the same again. We are a team that is
+              always "on the same wave" with clients. Therefore, we are always
+              ready to improve everyone who comes to us!
+            </p>
+            <button type="button" class="about-btn" data-modal-open >Online-booking</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="prices section">
+        <div class="container">
+          <p class="prices-top-text top-text">
+            Spend your time with the best masters
           </p>
-          <p class="about-text">
-            We are a team that never stops at what has been achieved and are
-            thirsty for changes. And when you fall into the hands of our master,
-            you will never be the same again. We are a team that is always "on the
-            same wave" with clients. Therefore, we are always ready to improve
-            everyone who comes to us!
-          </p>
-          <button type="button" class="about-btn">Online-booking</button>
-        </section>
-
-
-
-        <section>
-          <p>Spend your time with the best masters</p>
-          <h2>Services and prices</h2>
-          <ul>
-            <li>
-              <p>Men’s haircut</p>
-              <p>from 300 uah.</p>
-            </li>
-            <li>
-              <p>Beard trim</p>
-              <p>from 300 uah.</p>
-            </li>
-            <li>
-              <p>Mustache trim</p>
-              <p>from 200 uah.</p>
-            </li>
-            <li>
-              <p>Straight razor shave</p>
-              <p>from 200 uah.</p>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <p>Trainee’s haircut</p>
-              <p>from 300 uah.</p>
-            </li>
-            <li>
-              <p>Haircut under the nozzle</p>
-              <p>from 300 uah.</p>
-            </li>
-            <li>
-              <p>Children’s haircut (0-12 y.o.)</p>
-              <p>from 200 uah.</p>
-            </li>
-            <li>
-              <p>Camouflage of gray hair</p>
-              <p>from 200 uah.</p>
-            </li>
-          </ul>
-          <button type="button">Online-booking</button>
-        </section>
-        <section>
-          <ul>
-            <li>
+          <h2 class="prices-title">Services and prices</h2>
+          <div class="prices-list-wrap">
+            <ul class="prices-list list">
+              <li class="prices-item">
+                <p class="prices-item-text">Men’s haircut</p>
+                <p class="prices-item-text">from 300 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Beard trim</p>
+                <p class="prices-item-text">from 300 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Mustache trim</p>
+                <p class="prices-item-text">from 200 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Straight razor shave</p>
+                <p class="prices-item-text">from 200 uah.</p>
+              </li>
+            </ul>
+            <ul class="prices-list list">
+              <li class="prices-item">
+                <p class="prices-item-text">Trainee’s haircut</p>
+                <p class="prices-item-text">from 300 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Haircut under the nozzle</p>
+                <p class="prices-item-text">from 300 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Children’s haircut (0-12 y.o.)</p>
+                <p class="prices-item-text">from 200 uah.</p>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Camouflage of gray hair</p>
+                <p class="prices-item-text">from 200 uah.</p>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="prices-btn " data-modal-open >Online-booking</button>
+        </div>
+      </section>
+      <section class="benefits section">
+        <div class="container benefits-container">
+          <ul class="benefits-list list">
+            <li class="benefits-item">
               <span>600</span>
-              <p>Satisfied customers per day</p>
+              <p class="benefits-item-text">Satisfied customers per day</p>
             </li>
-            <li>
+            <li class="benefits-item">
               <span>50</span>
-              <p>Awards for excellent service</p>
+              <p class="benefits-item-text">Awards for excellent service</p>
             </li>
-            <li>
+            <li class="benefits-item">
               <span>20</span>
-              <p>Kyiv’s best barbers</p>
+              <p class="benefits-item-text">Kyiv’s best barbers</p>
             </li>
-            <li>
+            <li class="benefits-item">
               <span>100</span>
-              <p>Gifts for regular customers</p>
+              <p class="benefits-item-text">Gifts for regular customers</p>
             </li>
           </ul>
-          <p>Old traditional school</p>
-          <h2>¿Why people come to us?</h2>
-          <p>
-            Only good things are said about us. But it's better to see and feel 1
-            time than read 10 times.
+          <div class="benefits-wrap">
+            <p class="benefits-top-text top-text">Old traditional school</p>
+            <h2 class="benefits-title">¿Why people come to us?</h2>
+            <p class="benefits-botttom-text bottom-text">
+              Only good things are said about us. But it's better to see and
+              feel 1 time than read 10 times.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- barbers -->
+      <section class="barbers section">
+        <div class="container">
+          <p class="barbers-top-text top-text">
+            For true enjoyers of the atmosphere
           </p>
-        </section>
-        <section>
-          <p>For true enjoyers of the atmosphere</p>
-          <h2>Our barbers</h2>
-          <ul>
-            <li>
+          <h2 class="barbers-title title">Our barbers</h2>
+          <ul class="barbers-list list">
+            <li class="barber-item">
               <img
                 src="./img/barbers_1-min.jpeg"
                 alt="barber picture"
                 width="370"
                 height="346"
               />
-              <h3>John Smith</h3>
-              <p>Extreme Barber</p>
+              <div class="barber-wrap">
+                <h3 class="barber-item-title">John Smith</h3>
+                <p class="barber-item-text">Extreme Barber</p>
+                <ul class="barber-soc-list list">
+                  <li class="barber-soc-item">
+                    <a href="" class="barber-soc-link link"
+                      ><svg width="20" height="20" class="barber-soc-icon">
+                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                      ></a
+                    >
+                  </li>
+                  <li class="barber-soc-item">
+                    <a href="" class="barber-soc-link link"></a>
+                  </li>
+                  <li class="barber-soc-item">
+                    <a href="" class="barber-soc-link link"></a>
+                  </li>
+                  <li class="barber-soc-item">
+                    <a href="" class="barber-soc-link link"></a>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li>
+            <li class="barber-item">
               <img
                 src="./img/barbers_2-min.jpeg"
                 alt="barber picture"
                 width="370"
                 height="346"
               />
-              <h3>Michele Doe</h3>
-              <p>Extreme Barber</p>
+              <h3 class="barber-item-title">Michele Doe</h3>
+              <p class="barber-item-text">Extreme Barber</p>
             </li>
-            <li>
+            <li class="barber-item">
               <img
                 src="./img/barbers_3-min.jpeg"
                 alt="barber picture"
                 width="370"
                 height="346"
               />
-              <h3>Alan Black</h3>
-              <p>Extreme Barber</p>
+              <h3 class="barber-item-title">Alan Black</h3>
+              <p class="barber-item-text">Extreme Barber</p>
             </li>
           </ul>
-        </section>
-<!-- альбом фотографий -->
-        <section>
-          <p>In Latin, "barba" means "beard"</p>
+        </div>
+      </section>
+      <!-- альбом фотографий -->
+      <section class="gallery section">
+        <div class="container">
+          <p class="gallery-top-text top-text">
+            In Latin, "barba" means "beard"
+          </p>
           <h2 class="hidden">gallery</h2>
-          <ul>
-            <li><img src="./img/Rectangle_1-min.jpeg" alt="work example" width="270" height="360"></li>
-            <li><img src="./img/Rectangle_2-min.jpeg" alt="work example" width="270" height="360"></li>
-            <li><img src="./img/Rectangle_3-min.jpeg" alt="work example" width="270" height="360"></li>
-            <li><img src="./img/Rectangle_4-min.jpeg" alt="work example" width="270" height="360"></li>
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <img
+                src="./img/Rectangle_1-min.jpeg"
+                alt="work example"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/Rectangle_2-min.jpeg"
+                alt="work example"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/Rectangle_3-min.jpeg"
+                alt="work example"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/Rectangle_4-min.jpeg"
+                alt="work example"
+                width="270"
+                height="360"
+              />
+            </li>
           </ul>
-        </section>
-        <!-- online-booking -->
-        <section>
-          <h2>Online-booking</h2>
-        </section>
-        <!-- contacts -->
-        <section>
-          <h2>Contacts</h2>
-          <address>
-<ul>
-  <li><a href="https://maps.app.goo.gl/JYAZksrEoBkbQR4F9" target="_blank" rel="noopener noreferrer nofollow">st. Vasilkivska, 7A <br>
-    Kyiv, 08132</a></li>
-  <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-  <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
-</ul>
-          </address>
-          <h3>Working hours</h3>
-          <p>Every day from 9:00 to 22:00</p>
-        </section>
-      </main>
-<footer>
-    <p>&copy;Copyright 2020</p>
+        </div>
+      </section>
+      <!-- online-booking -->
+      <section>
+        <h2>Online-booking</h2>
+      </section>
+      <!-- contacts -->
+      <section>
+        <h2>Contacts</h2>
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://maps.app.goo.gl/JYAZksrEoBkbQR4F9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >st. Vasilkivska, 7A <br />
+                Kyiv, 08132</a
+              >
+            </li>
+            <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+            <li>
+              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+            </li>
+          </ul>
+        </address>
+        <h3>Working hours</h3>
+        <p>Every day from 9:00 to 22:00</p>
+      </section>
+    </main>
+    <footer class="container">
+      <p>&copy;Copyright 2020</p>
 
-    <ul>
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link"
-          >Instagram</a
-        >
-      </li>
-      <li>
-        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="hero-link"
-          >Youtube</a
-        >
-      </li>
-    </ul>
-</footer>
+      <ul>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            class="hero-link"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            class="hero-link"
+            >Youtube</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal "l>
+        <button class="button-mod-close" data-modal-close>
+         x
+        </button>
+        <b class="mod-title">Leave your contacts and we will call you back</b>
+        <form class="mod-form">
+         <div class="modal-field">
+            <label class="mod-label" for="name">Name</label>
+           <div class="input-wrap">
+              <input class="mod-input" id="name" name="user-name" type="text">
+            
+           </div>
+         </div>
+         <div class="modal-field">
+            <label class="mod-label" for="number">Phone</label>
+            <div class="input-wrap">
+               <input class="mod-input" id="number" name="user-number" type="tel">
+            
+           </div>
+         </div>
+         <div class="modal-field">
+            <label class="mod-label" for="mail">Email</label>
+            <div class="input-wrap">
+               <input class="mod-input" id="mail" name="user-email" type="email">
+           
+            </div>
+         </div>
+          <div class="modal-teax-wrap">
+            <label class="mod-label" for="comment">Comment</label>
+            <textarea class="modal-teax" id="comment" name="comment" placeholder="Text input"></textarea>
+          </div>
 
-</body>
+          <div class="checkbox-wrap">
+            <input class="modal-check visually-hidden" id="privacy" name="user-privacy" type="checkbox" value="true" required>
+            <label class="check-text" for="privacy">
+              <span> <span class="is-hidden">✓</span></span>
+              I accept the terms and conditions of the <a class="privacy-policy" href>Privacy Policy</a></label>
+          </div>
+
+        
+
+          <button class="btn-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    
+    <script src="./js/menu.js" ></script>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
