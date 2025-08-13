@@ -568,7 +568,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: #ffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -576,7 +576,7 @@ body {
 }
 
 .barber-soc-icon {
-  fill: currentColor;
+  fill: var(--color-background-hover);
 }
 .barber-soc-link:is(:hover, :focus) .barber-soc-icon {
   fill: var(--color-background-hover);
