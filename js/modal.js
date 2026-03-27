@@ -2,7 +2,7 @@
   const refs = {
     openModalBtnHeader: ".header-btn",
     openModalBtnAbout: ".about-btn",
-    openModalBtn_prices: ".prices-btn",
+    openModalBtnPrices: ".prices-btn",
     closeModalBtn: "[data-modal-close]",
     modal: "[data-modal]",
   };
@@ -19,4 +19,7 @@
   }
 
   addListeners(refs, "click", toggleModal);
+
+
 })();
+
