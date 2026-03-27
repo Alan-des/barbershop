@@ -105,7 +105,7 @@ body {
 
 .header-list {
   display: flex;
-  margin-right: auto;
+  margin-right: 254px;
   gap: 30px;
 }
 .header-item {
@@ -512,7 +512,9 @@ body {
 }
 
 /* ---------------barbers------------------ */
-
+.barbers.section{
+  background-color: #F7F7F7;
+}
 .barbers {
 }
 .barbers-top-text {
@@ -539,6 +541,8 @@ body {
   font-size: 18px;
   line-height: 1.39;
   letter-spacing: 0.02em;
+  margin-top: 30px;
+  margin-bottom: 8px;
   text-align: center;
   color: var(--second-title-color);
 }
@@ -568,6 +572,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  padding-left: 8px;
   background-color: #ffff;
   display: flex;
   align-items: center;
@@ -576,7 +581,7 @@ body {
 }
 
 .barber-soc-icon {
-  fill: var(--color-background-hover);
+  fill: var(--second-title-color);
 }
 .barber-soc-link:is(:hover, :focus) .barber-soc-icon {
   fill: var(--color-background-hover);
@@ -599,6 +604,15 @@ body {
 
 .gallery-item {
   width: calc((100% - 90px) / 4);
+}
+
+/* -------------ONLINE-BOOKING-------------- */
+
+.form-section{
+  background-color: #191C26;
+}
+.title-form{
+  color: #fff;
 }
 
 /* ---------------BACKDROP------------------ */
