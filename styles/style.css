@@ -1082,7 +1082,125 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+@media screen and (min-width: 380px) {
 
+  .header-container {
+    position: relative;
+}
+
+  .hero-wrap {
+    padding: 272px 14px 208px;
+}
+
+.hero-title {
+    font-size: 44px;
+}
+
+  .header-logo{
+    margin-right: 44px;
+}
+.header-list {
+    margin-right: 72px;
+    gap: 27px;
+}
+.header-tel {
+    position: absolute;
+    top: 105px;
+    left: 112px;
+    font-size: 12px;
+}
+.header-btn {
+    position: absolute;
+    left: 272px;
+    top: 97px;
+    min-width: 118px;
+    height: 34px;
+}
+.about-container {
+    flex-direction: column;
+}
+img {
+    max-width: 192px;
+}
+.about-wrap {
+    padding-right: 24px;
+    padding-left: 91px;
+}
+.prices-title {
+    padding-left: 52px;
+}
+.prices-list {
+    padding: 30px 11px;
+}
+
+.benefits-container {
+    padding-left: 9px;
+}
+
+.barbers-title {
+    padding-left: 64px;
+}
+
+.barber-item {
+    width: unset;
+}
+.barbers-list {
+    align-items: center;
+    gap: 19px;
+    flex-direction: column;
+}
+.gallery-item {
+    width: unset;
+}
+
+.gallery-list {
+    gap: 12px;
+}
+
+.form__styles {
+    width: 187px;
+}
+
+.form__button {
+   position: absolute;
+           top: 300px;
+        left: 117px;
+}
+
+.booking__title {
+    width: 200px;
+    font-size: 34px;
+}
+
+.form{
+  position: relative;
+  width: 200px;
+}
+
+.address {
+    padding-left: 9px;
+}
+
+.address__title {
+    font-size: 34px;
+    margin-bottom: 14px;
+}
+
+.contacts__mail {
+    font-size: 16px;
+}
+
+.address__working-hours {
+    font-size: 16px;
+}
+
+.footer__list--static::before {
+    width: 53px;
+}
+.footer__wrapper {
+    margin-left: 5px;
+}
+}
 @media screen and (min-width: 480px) {
   .container {
     min-width: 828px;
