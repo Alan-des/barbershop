@@ -1200,6 +1200,16 @@ img {
 .footer__wrapper {
     margin-left: 5px;
 }
+
+.benefits {
+    display: flex;
+}
+.benefits-container {
+    flex-direction: column;
+}
+html, body {
+    overflow-x: hidden;
+}
 }
 @media (min-width: 480px) and(max-width:768px) {
   .container {
